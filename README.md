@@ -1,25 +1,106 @@
-# Bank-Customer-Churn-Prediction-Using-Machine-Learning-for-Strategic-Retention
-This MSc Capstone uses Python and ML (Random Forest, Gradient Boosting) to predict bank customer churn. By identifying key exit drivers, it provides data-driven insights for Power BI dashboards to enhance strategic retention.
-# Bank Customer Churn Prediction Using Machine Learning for Strategic Retention 
+# Bank Customer Churn Prediction Using Machine Learning for Strategic Retention
 
-## 📌 Project Overview
-Customer churn is a major problem for banks because the loss of customers has a direct effect on profitability and an augmented cost of acquisition. The scope of this MSc Capstone project is to create a data-driven solution to know customer churn and what factors determine customer attrition. 
+## Project Overview
 
-The results will be helpful in retention strategies and enhanced decision-making. GitHub will be used to maintain all the code and documentation and to guarantee transparency and reproducibility.
+This project focuses on predicting customer churn in the banking sector using machine learning techniques. The objective is to identify customers who are likely to leave the bank and provide actionable business insights for strategic retention.
 
-## 📊 Dataset Selection
-The dataset that will be used in the project is the Bank Customer Churn Modelling Data set.
-* **Source:** [Kaggle - Churn Modelling Dataset](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling)
-* **Size:** Approximately 10,000 customer records.
-* **Features:** 14 variables including age, gender, geography, credit score, balance, estimated salary, account information (tenure, number of products), and a churn variable .
+The project applies data preprocessing, exploratory data analysis (EDA), feature engineering, machine learning model comparison, hyperparameter tuning, cross-validation, SHAP interpretation analysis, and Tableau dashboard visualization.
 
-## ⚙️ Analytical Approach
-This project employs a robust analytical pipeline:
-* **Tools & Languages:** The employment of Python in data preprocessing, exploration, data analysis, and machine learning modelling. 
-* **Algorithms:** Logistic Regression, Random Forest, and Gradient Boosting will be employed.
-* **Performance Metrics:** Precision, recall, F1-score, and ROC-AUC will be used to determine model performance.
-* **Business Intelligence:** Churn risk segmentation and business stakeholder key drivers can be visualised through the creation of Power BI dashboards.
+---
 
-## 🎯 Expected Outcomes
-* The project will generate the right churn prediction model and the significant drivers of customer exit.
-* The insights will allow the retention strategies to be proactive, minimize customer loss, and improve long-term profitability.
+## Dataset
+
+Dataset Source:
+Kaggle – Bank Customer Churn Modelling Dataset
+
+https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Plotly
+* Scikit-learn
+* SHAP
+* SQLite
+* Tableau
+
+---
+
+## Machine Learning Models
+
+The following models were implemented and evaluated:
+
+1. Logistic Regression
+2. Random Forest Classifier
+3. Gradient Boosting Classifier
+
+Evaluation metrics:
+
+* Precision
+* Recall
+* F1-Score
+* ROC-AUC
+* Confusion Matrix
+
+---
+
+## Key Features of the Project
+
+* Exploratory Data Analysis (EDA)
+* Feature Engineering
+* Stratified Train-Test Split
+* Hyperparameter Tuning
+* Cross-Validation
+* SHAP Explainability Analysis
+* Tableau Dashboard Integration
+
+---
+
+## Repository Structure
+
+* bankchurn_Final.ipynb
+* SQL_Cleaning_Queries.sql
+* Final_Churn_Predictions.csv
+* Tableau Dashboard Files
+* Dissertation Report PDF
+* README.md
+
+---
+
+## How to Run the Project
+
+1. Clone the repository
+2. Install required Python libraries
+3. Open the notebook in Jupyter Notebook or Google Colab
+4. Run all cells sequentially
+
+Required libraries:
+pip install pandas numpy matplotlib seaborn plotly scikit-learn shap
+
+---
+
+## Final Results
+
+Gradient Boosting achieved the best predictive performance with:
+
+* Accuracy: 87%
+* ROC-AUC: 0.87
+* Precision: 78%
+* Recall: 49%
+* F1-Score: 0.60
+
+The project also generated customer risk segmentation for strategic business retention.
+
+---
+
+## Author
+
+Donda Raj
+MSc IT for Business Data Analytics
+International Business School, Budapest
